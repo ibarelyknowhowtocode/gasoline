@@ -68,8 +68,8 @@ KERNEL_DEF = -DWENDLANDC4            #Use the Wendland C_4 Kernel (See Dehnen & 
 # The following pairs of lines define which cooling method to use.  Uncomment
 # only one pair
 
-COOLING_OBJ = cooling_metal.o
-COOLING_DEF = -DCOOLING_METAL
+#COOLING_OBJ = cooling_metal.o
+#COOLING_DEF = -DCOOLING_METAL
 
 #COOLING_OBJ = cooling_cosmo.o
 #COOLING_DEF = -DCOOLING_COSMO
@@ -85,7 +85,7 @@ COOLING_DEF = -DCOOLING_METAL
 #COOLING_DEF = -DCOOLING_MOLECULARH
 
 #COOLING_OBJ = cooling_planet.o
-#COOLING_DEF = -DCOOLING_PLANET
+COOLING_DEF = -DCOOLING_PLANET
 
 #	 /$$$$$$$$             /$$                       
 #	| $$_____/            | $$                       
