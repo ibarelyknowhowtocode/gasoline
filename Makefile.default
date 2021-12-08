@@ -84,7 +84,7 @@ KERNEL_DEF = -DWENDLANDC4            #Use the Wendland C_4 Kernel (See Dehnen & 
 #COOLING_OBJ = cooling_metal_H2.o
 #COOLING_DEF = -DCOOLING_MOLECULARH
 
-#COOLING_OBJ = cooling_planet.o
+COOLING_OBJ = cooling_planet.o
 COOLING_DEF = -DCOOLING_PLANET
 
 #	 /$$$$$$$$             /$$                       
